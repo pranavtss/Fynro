@@ -86,12 +86,18 @@
     background-color: #f6f4f7;  
     padding-bottom: 80px; 
 }
+.page2 {
+    width: 100%; 
+    min-height: 700px; 
+    background-color: #white;  
+    padding-bottom:80px; 
+}
 
 @import url('path-to-your-gilroy-font.css');
 .frame{
 
-    right: 50; /* Align it with the text */
-    transform: translateY(-20px); /* Fine-tune the position */
+    right: 50; 
+    transform: translateY(-20px); 
     padding-left: 80px;
      padding-top: 120px;
      padding-bottom: 0px;
@@ -170,22 +176,103 @@
     border-radius: 17px;
 }
 .watch{
+    position: relative; 
     padding-top:60px;
     font-size:28px;
     text-align: center;
     font-family:'gilroy',sans-serif;
 }
+
 .youtube {
-    position: relative; /* Changed from absolute */
+    position: relative; 
     padding-left: 165px;
     padding-top: 35px;
 }
-
-
-
-.vdotitle {
+.page3{
+        position: relative;
+        width: 100%; 
+        min-height: 700px; 
+        background-color:#F7F9FF;  
+        padding-bottom:80px; 
+        font-family:'Gilroy',sans-serif
+}
+.page3topic{
+    font-family: 'Gilroy',sans-serif;
+    text-align: center;
+    font-size:28px;
+    padding-top:105px;
     position: relative;
-    font-family: 'Gilroy', sans-serif;
-    padding-left: 177px;
- 
+    margin-top: 17px;
+    font-weight:400;
+
+}
+.invest-icon{
+    position:relative;
+    padding-top: 55px;
+    left:137px;
+}
+.p3h1{
+    position:relative;
+    top: 2px;
+    padding-left:137px;
+    font-weight:100;
+    }
+.p3a1{
+    position:relative;
+    padding-left:137px;
+    font-size: 16px;
+    
+    }
+    .Retirement-Planning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .tt{
+        text-align: left;
+        }
+        margin-top: -159px;
+    }
+    .Portfolio-Optimization{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        transform: translateX(-7%); 
+        
+        .tt1{
+            text-align: left;
+        }
+        margin-top: -159px;
+    }
+    .Stock-Market-Guidance{
+        position:relative;
+    top: 2px;
+    padding-left:137px;
+    top: 68px;
+        tt2{
+            text-align: left;
+        }
+        
+    }
+    .Credit-Management{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    bottom: 124px;
+    left: 50%;
+    transform: translateX(-51%); 
+    text-align: left;
+    width: 100%;
+    }
+.Personalized-Finance-Advise{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: center;
+    position: absolute;
+    bottom: 124px;
+    transform: translateX(-7%); 
+    text-align: left;
+    width: 100%;
 }
