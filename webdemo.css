@@ -67,7 +67,8 @@
 .getbtn {
     background: #5c76f4;
     color: white;
-    padding: 6px 14px;
+    padding-left:20px;
+    padding-right:20px;
     border: none;
     border-radius: 10px;
     font-size: 14px;
@@ -88,22 +89,33 @@
 
 @import url('path-to-your-gilroy-font.css');
 .frame{
-    padding-left: 65px;
-     padding-top: 153px;
-    top:-23.93;
-    left:-26.47px
+
+    right: 50; /* Align it with the text */
+    transform: translateY(-20px); /* Fine-tune the position */
+    padding-left: 80px;
+     padding-top: 120px;
+     padding-bottom: 0px;
+
 }
 .cont {
+
+    position: relative; 
+    top: -55px;
     color: black;
-    font-size: 30px;
+    font-size: 42px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
-    width: 700px;
     padding-left: 110.73px;
-    top:545px;
+    padding-right:40%;
+    padding-top:0px;
 }
 
-
+.curve{
+    position: relative; 
+    top: -62px;
+    left: 38px; 
+    transform: translateX(380px); 
+}
 .Certified-Advisors {
     color: #5978FF;
 }
@@ -121,26 +133,25 @@
     font-weight: 400;
     width: 600px;
     padding-left: 110.73px;
-    margin-top: 10px; 
+    margin-top: -26px; 
 }
 
 .checkbox {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Gilroy', sans-serif;
-    padding-top: 20px;
-    width: 480px;
-    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding-left: 110.73px;
+    padding-top: 28px;
 }
 .reviewimg {
     position: absolute;
-    top: 80px; 
-    right: 50px; 
+    top:90px; 
+    right: 80px; 
     padding: 110px 15px;
     display: flex;
     align-items: center;
     gap:5px;
+
 }
 .explore{
     width: 208px;
@@ -148,13 +159,13 @@
     padding-top:17px;
     padding-right:36px;
     padding-bottom:17px;
-    padding-left:36px;
+    padding-left:48px;
     cursor:pointer;
     display:flex;
     background: #5978FF ;
     color:white;
     border-color: transparent;
-    margin-top:60px;
+    margin-top:47px;
     margin-left:110.07px;
     border-radius: 17px;
 }
@@ -170,12 +181,11 @@
     padding-top: 35px;
 }
 
+
+
 .vdotitle {
     position: relative;
+    font-family: 'Gilroy', sans-serif;
     padding-left: 177px;
  
 }
-/* .curve{
-    margin-left:200;
-    padding-top: 150px;
-} */
