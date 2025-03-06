@@ -248,20 +248,22 @@
     font-size:28px;
     padding-top:105px;
     position: relative;
-    margin-top: 17px;
+    margin-top: -2px;
     font-weight:700;
 }
 .invest-icon{
     position:relative;
     padding-top: 58px;
     margin-left:168px;
+    top:-29px;
+
 }
 .p3h1{
     position:relative;
     top: 2px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
-    margin-top:10px;
+    top:-14px;
     margin-left: 168px;
     font-size: 20px;
     }
@@ -270,8 +272,8 @@
     font-weight: 300;
     position:relative;
     padding-left:168px;
-    font-size: 16px;
-    margin-top:10px;
+    top:-4px;
+    font-size: 15px;
     color:grey;
     }
     .Retirement-Planning {
@@ -299,7 +301,7 @@
     .Stock-Market-Guidance{
         font-weight: 300;
         position:relative;
-    top: 82px;
+    top: 128px;
     padding-left:168px;
         tt2{
             text-align: left;
@@ -391,7 +393,7 @@
 .badge {
     display: flex;
     align-items: center;
-    background: rgba(252, 201, 201, 0.9);
+    background: rgba(248, 218, 218, 0.9);
     color: #402708;
     padding: 4px 10px;
     border-radius: 8px;
