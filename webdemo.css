@@ -88,7 +88,7 @@
 }
 .page2 {
     width: 100%; 
-    min-height: 700px; 
+    min-height: 600px; 
     background-color: white;  
      padding-bottom:0px; 
 }
@@ -298,5 +298,6 @@
     margin-top: 10px;
 }
 .dots{
-    margin-top:100px;
+    position:relative;
+    margin-top:76px;
 }
