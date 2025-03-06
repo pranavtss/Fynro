@@ -89,11 +89,12 @@
 .page2 {
     width: 100%; 
     min-height: 700px; 
-    background-color: #white;  
+    background-color: white;  
     padding-bottom:80px; 
 }
 
 @import url('path-to-your-gilroy-font.css');
+
 .frame{
 
     right: 50; 
@@ -203,36 +204,38 @@
     padding-top:105px;
     position: relative;
     margin-top: 17px;
-    font-weight:400;
-
+    font-weight:700;
 }
 .invest-icon{
     position:relative;
-    padding-top: 55px;
+    padding-top: 48px;
     left:137px;
 }
 .p3h1{
     position:relative;
     top: 2px;
     padding-left:137px;
-    font-weight:100;
+    font-weight:300;
+    margin-top:10px;
     }
 .p3a1{
     position:relative;
     padding-left:137px;
     font-size: 16px;
-    
+    margin-top:10px;
     }
     .Retirement-Planning {
+        font-weight: 300;
         display: flex;
         flex-direction: column;
         align-items: center;
         .tt{
         text-align: left;
         }
-        margin-top: -159px;
+        margin-top: -180px;
     }
     .Portfolio-Optimization{
+        font-weight: 300;
         display:flex;
         flex-direction: column;
         align-items: flex-end;
@@ -241,38 +244,47 @@
         .tt1{
             text-align: left;
         }
-        margin-top: -159px;
+        margin-top: -179px;
     }
     .Stock-Market-Guidance{
+        font-weight: 300;
         position:relative;
     top: 2px;
     padding-left:137px;
-    top: 68px;
+    top: 64px;
         tt2{
             text-align: left;
         }
         
     }
     .Credit-Management{
+        font-weight: 300;
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
     position: absolute;
-    bottom: 124px;
+    bottom: 92px;
     left: 50%;
     transform: translateX(-51%); 
     text-align: left;
     width: 100%;
     }
 .Personalized-Finance-Advise{
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
     justify-content: center;
     position: absolute;
-    bottom: 124px;
-    transform: translateX(-7%); 
+    bottom: 92px;
+    transform: translateX(-9%); 
     text-align: left;
     width: 100%;
+}
+.s1{
+    margin-top: 10px;;
+}
+.s2{
+    margin-top: 10px;
 }
