@@ -39,7 +39,7 @@
     text-decoration: none;
     color: #0c0c0c;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     transition: 0.3s;
 }
 
@@ -88,7 +88,7 @@
 }
 .page2 {
     width: 100%; 
-    min-height: 600px; 
+    min-height: 700px; 
     background-color: white;  
      padding-bottom:0px; 
 }
@@ -115,9 +115,23 @@
     right: 50; 
     transform: translateY(-20px); 
     padding-left: 80px;
-     padding-top: 120px;
+     padding-top: 162px;
      padding-bottom: 0px;
+     margin-top:0px;
 
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('path-to-your-font-folder/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('path-to-your-gilroy/Gilroy-Medium.woff2') format('woff2'),
+         url('path-to-your-gilroy/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;  
+    font-style: normal;
 }
 .cont {
 
@@ -125,17 +139,19 @@
     top: -55px;
     color: black;
     font-size: 42px;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 400;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
     padding-left: 110.73px;
+    font-weight: 550;
     padding-right:40%;
     padding-top:0px;
+    line-height: 64px;
 }
 
 .curve{
     position: relative; 
-    top: -62px;
-    left: 38px; 
+    top: -59px;
+    left: -40px; 
     transform: translateX(380px); 
 }
 .Certified-Advisors {
@@ -150,12 +166,13 @@
 .contbody {
     color: black;
     justify-content: flex-end;
-    font-size: 18px; 
+    font-size: 16px; 
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
-    width: 600px;
+    width: 900px;
     padding-left: 110.73px;
-    margin-top: -26px; 
+    margin-top: -33px;
+    line-height: 24px;; 
 }
 
 .checkbox {
@@ -164,11 +181,13 @@
     gap: 10px;
     padding-left: 110.73px;
     padding-top: 28px;
+    color:grey;
+    font-size: 18px;
 }
 .reviewimg {
     position: absolute;
-    top:90px; 
-    right: 80px; 
+    top:140px; 
+    right: 130px; 
     padding: 110px 15px;
     display: flex;
     align-items: center;
@@ -179,17 +198,19 @@
     width: 208px;
     height:58px;
     padding-top:17px;
-    padding-right:36px;
     padding-bottom:17px;
-    padding-left:48px;
+    padding-left: 34px;
     cursor:pointer;
     display:flex;
     background: #5978FF ;
     color:white;
     border-color: transparent;
-    margin-top:47px;
+    margin-top:50px;
     margin-left:110.07px;
     border-radius: 17px;
+    font-size:18px ;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
 }
 .watch{
     position: relative; 
@@ -199,12 +220,26 @@
     font-family:'gilroy',sans-serif;
 }
 
-.youtube {
-    position: relative; 
-    padding-left: 165px;
-    padding-top: 35px;
+.yt-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 5px;
+    margin-right: 129px;
+    margin-bottom: -35px;
 }
 
+.yt-container img {
+    
+    height: auto;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('path-to-your-gilroy/Gilroy-SemiBold.woff2') format('woff2'),
+         url('path-to-your-gilroy/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600; 
+    font-style: normal;
+}
 .page3topic{
     font-family: 'Gilroy',sans-serif;
     text-align: center;
@@ -216,22 +251,26 @@
 }
 .invest-icon{
     position:relative;
-    padding-top: 48px;
-    left:137px;
+    padding-top: 58px;
+    margin-left:168px;
 }
 .p3h1{
     position:relative;
     top: 2px;
-    padding-left:137px;
-    font-weight:300;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
     margin-top:10px;
+    margin-left: 168px;
+    font-size: 20px;
     }
 .p3a1{
+    font-family: 'Gilroy', sans-serif;
     font-weight: 300;
     position:relative;
-    padding-left:137px;
+    padding-left:168px;
     font-size: 16px;
     margin-top:10px;
+    color:grey;
     }
     .Retirement-Planning {
         font-weight: 300;
@@ -241,26 +280,26 @@
         .tt{
         text-align: left;
         }
-        margin-top: -180px;
+        margin-top: -181px;
     }
     .Portfolio-Optimization{
         font-weight: 300;
         display:flex;
         flex-direction: column;
         align-items: flex-end;
-        transform: translateX(-7%); 
+        transform: translateX(-13%); 
         
         .tt1{
             text-align: left;
         }
-        margin-top: -179px;
+        margin-top:-181px;
     }
     .Stock-Market-Guidance{
         font-weight: 300;
         position:relative;
     top: 2px;
-    padding-left:137px;
-    top: 64px;
+    padding-left:168px;
+    top: 103px;
         tt2{
             text-align: left;
         }
@@ -273,7 +312,7 @@
     align-items: center; 
     justify-content: center;
     position: absolute;
-    bottom: 96px;
+    bottom: 65px;
     left: 50%;
     transform: translateX(-51%);
     text-align: left;
@@ -286,19 +325,28 @@
     align-items: flex-end; 
     justify-content: center;
     position: absolute;
-    bottom: 98px;
-    transform: translateX(-9%); 
+    bottom: 69px;
+    transform: translateX(-13%); 
     text-align: left;
     width: 100%;
 }
 .s1{
-    margin-top: 10px;;
+    margin-top: 10px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 .s3{
     margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
 }
 .s2{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 300;
     margin-top: 10px;
+    color:grey;
+    font-size: 15px;
 }
 .dots{
     position:relative;
