@@ -90,9 +90,24 @@
     width: 100%; 
     min-height: 700px; 
     background-color: white;  
-    padding-bottom:80px; 
+     padding-bottom:0px; 
 }
-
+.page3{
+    position: relative;
+    width: 100%; 
+    min-height: 700px; 
+    background-color:#F7F9FF;  
+    padding-bottom:80px; 
+    font-family:'Gilroy',sans-serif;
+}
+.page4{
+    .page2 {
+        width: 100%; 
+        min-height: 700px; 
+        background-color: white;  
+        padding-bottom:30px; 
+    }
+}
 @import url('path-to-your-gilroy-font.css');
 
 .frame{
@@ -189,14 +204,7 @@
     padding-left: 165px;
     padding-top: 35px;
 }
-.page3{
-        position: relative;
-        width: 100%; 
-        min-height: 700px; 
-        background-color:#F7F9FF;  
-        padding-bottom:80px; 
-        font-family:'Gilroy',sans-serif
-}
+
 .page3topic{
     font-family: 'Gilroy',sans-serif;
     text-align: center;
@@ -219,6 +227,7 @@
     margin-top:10px;
     }
 .p3a1{
+    font-weight: 300;
     position:relative;
     padding-left:137px;
     font-size: 16px;
@@ -287,4 +296,7 @@
 }
 .s2{
     margin-top: 10px;
+}
+.dots{
+    margin-top:100px;
 }
