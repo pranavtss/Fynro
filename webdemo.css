@@ -273,9 +273,9 @@
     align-items: center; 
     justify-content: center;
     position: absolute;
-    bottom: 92px;
+    bottom: 96px;
     left: 50%;
-    transform: translateX(-51%); 
+    transform: translateX(-51%);
     text-align: left;
     width: 100%;
     }
@@ -286,13 +286,16 @@
     align-items: flex-end; 
     justify-content: center;
     position: absolute;
-    bottom: 92px;
+    bottom: 98px;
     transform: translateX(-9%); 
     text-align: left;
     width: 100%;
 }
 .s1{
     margin-top: 10px;;
+}
+.s3{
+    margin-top: 8px;
 }
 .s2{
     margin-top: 10px;
