@@ -6,6 +6,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy.ttf') format('truetype'); /* Path to font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .page1bar {
     display: flex;
@@ -110,7 +117,7 @@
         overflow-x: hidden;
         background-color: #F7F9FF;
 }
-@import url('path-to-your-gilroy-font.css');
+
 
 .frame{
 
@@ -122,19 +129,7 @@
      margin-top:-8px;
 
 }
-@font-face {
-    font-family: 'Gilroy';
-    src: url('path-to-your-font-folder/Gilroy-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gilroy';
-    src: url('path-to-your-gilroy/Gilroy-Medium.woff2') format('woff2'),
-         url('path-to-your-gilroy/Gilroy-Medium.woff') format('woff');
-    font-weight: 500;  
-    font-style: normal;
-}
+
 .cont {
 
     position: relative; 
@@ -202,7 +197,7 @@
 .explore{
     width: 208px;
     height:58px;
-    padding-top:17px;
+    padding-top:16px;
     padding-bottom:17px;
     padding-left: 34px;
     cursor:pointer;
@@ -215,7 +210,7 @@
     border-radius: 12px;
     font-size:18px ;
     font-family: 'Gilroy', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 .rocket{
     width:33; 
@@ -227,6 +222,7 @@
     font-size:28px;
     text-align: center;
     font-family:'gilroy',sans-serif;
+    font-weight: 500;
 }
 
 .yt-container {
@@ -243,13 +239,7 @@
     height: auto;
 }
 
-@font-face {
-    font-family: 'Gilroy';
-    src: url('path-to-your-gilroy/Gilroy-SemiBold.woff2') format('woff2'),
-         url('path-to-your-gilroy/Gilroy-SemiBold.woff') format('woff');
-    font-weight: 600; 
-    font-style: normal;
-}
+
 .page3topic{
     font-family: 'Gilroy',sans-serif;
     text-align: center;
@@ -257,7 +247,7 @@
     padding-top:105px;
     position: relative;
     margin-top: -2px;
-    font-weight:700;
+    font-weight:bold;
 }
 .invest-icon{
     position:relative;
@@ -270,7 +260,7 @@
     position:relative;
     top: 2px;
     font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     top:-14px;
     margin-left: 168px;
     font-size: 20px;
@@ -344,12 +334,12 @@
 .s1{
     margin-top: 10px;
     font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
 }
 .s3{
     margin-top: 8px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
 }
 .s2{
@@ -416,14 +406,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    font-weight: medium;
 }
 
 h3 {
     font-size: 18px;
     margin: 10px 0;
     white-space: nowrap;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .rating {
@@ -484,7 +474,7 @@ h3 {
 
 .new-credits {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: #121214;
 }
 
