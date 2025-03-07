@@ -142,7 +142,7 @@
     color: black;
     font-size: 42px;
     font-family: 'Gilroy-Bold', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     padding-left: 110.73px;
     font-weight: 550;
     padding-right:40%;
@@ -181,7 +181,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 110.73px;
+    padding: 107px;
     padding-top: 38px;
     color:grey;
     background-color: #F7F9FF;
@@ -189,12 +189,14 @@
 }
 .reviewimg {
     position: absolute;
-    top:140px; 
-    right: 130px; 
-    padding: 110px 15px;
+    top:243px; 
+    right: 148px; 
+    padding: 0px 0px;
     display: flex;
     align-items: center;
     gap:5px;
+    width:520px;
+    height:435px;
 
 }
 .explore{
@@ -208,12 +210,16 @@
     background: #5978FF ;
     color:white;
     border-color: transparent;
-    margin-top:65px;
+    margin-top:-60px;
     margin-left:110.07px;
-    border-radius: 17px;
+    border-radius: 12px;
     font-size:18px ;
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
+}
+.rocket{
+    width:33; 
+    height:28;
 }
 .watch{
     position: relative; 
@@ -236,6 +242,7 @@
     
     height: auto;
 }
+
 @font-face {
     font-family: 'Gilroy';
     src: url('path-to-your-gilroy/Gilroy-SemiBold.woff2') format('woff2'),
@@ -376,8 +383,9 @@
 .adv-card {
     background: white;
     border-radius: 12px;
-    padding: 5px;
-    width: 280px;
+    padding: 10px;
+    width: 320px;
+    height:420px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -441,7 +449,7 @@ h3 {
     align-items: center;
     font-size: 14px;
     color: #333;
-    margin-top: 5px;
+    margin-top: -9px;
 }
 
 .experience img {
@@ -491,27 +499,26 @@ h3 {
     font-weight: 400;
     font-size: 14px;
 }
-
-
+.explore-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    margin-top: 37px;
+    margin-bottom: 5px;
+}
 .explore-text {
-    display: inline-block;
-    margin-top: 61px;
     color: #4a6ef5;
     text-decoration: none;
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
-    font-size:16px;
-    text-align: center;
-    padding: 50px;
+    font-size: 16px;
 }
-.arrow{
-  
-    margin-top: 61px;
+.arrow {
     color: #4a6ef5;
-    text-decoration: none;
     font-family: 'Gilroy', sans-serif;
     font-weight: bold;
-    font-size:25px;
+    font-size: 25px;
 }
 .meet-adv{
     padding-top:88px;
