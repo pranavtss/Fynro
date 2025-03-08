@@ -57,6 +57,7 @@ body {
     display: flex;
     align-items: center;
     white-space: nowrap;
+    gap:8px;
 }
 
 .nav a:first-child {
@@ -105,7 +106,7 @@ main {
     padding: 50px 80px;
     max-width: 1200px;
     margin-top: 150px;
-    padding-top: 130px;
+    padding-top: 170px;
     margin: auto;
 }
 
@@ -137,11 +138,11 @@ main {
 .vector2 {
     position: absolute;
     left: 50%;
-    bottom: -10px;
-    transform: translateX(-50%);
-    width: 120px;
+    bottom: -15px;
+    transform: translateX(-30%);
+    width: 210px;
+    height: auto; 
 }
-
 .highlight {
     color: #4a6ef5;
     font-weight: bold;
@@ -156,7 +157,6 @@ main {
     bottom: -5px;
     width: 100%;
     height: 6px;
-    background: url('vector2.png') no-repeat center;
     background-size: contain;
 }
 
@@ -218,7 +218,8 @@ main {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 102px;
+    margin-bottom: -137px;
 }
 
 .frame img {
